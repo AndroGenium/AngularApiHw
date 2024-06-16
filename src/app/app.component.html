@@ -1,0 +1,10 @@
+<main>
+  <div *ngFor="let element of array" class="ProductCard" [id] = 'element.id'>
+    <img [src]="element.image" alt="">
+    <div>
+      <h2>{{ element.title }}</h2>
+      <p>{{ element.price }}$</p>
+      <p>{{element.description}}</p>
+    </div>
+  </div>
+</main>

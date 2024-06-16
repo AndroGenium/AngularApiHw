@@ -1,0 +1,19 @@
+main{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap:150px;
+}
+.ProductCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    div{
+        max-width: 300px;
+        width: 10000px;
+    }
+
+}
+img{
+    width: 300px;
+}
